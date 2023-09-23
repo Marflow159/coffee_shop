@@ -1,0 +1,16 @@
+.ocHeader{
+    width: 100%;
+    height: 260px;
+    background: url('../resources/img/ourCoffy/header1.png');
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color:white;
+    
+    grid-row-gap: 30px;
+    &>nav{
+        margin: 25px;
+    }
+}
